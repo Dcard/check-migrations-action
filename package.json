@@ -1,0 +1,24 @@
+{
+  "name": "check-migrations-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dcard/check-migrations-action.git"
+  },
+  "keywords": [],
+  "author": "benjamin99 <cknomber1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dcard/check-migrations-action/issues"
+  },
+  "homepage": "https://github.com/Dcard/check-migrations-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^4.0.0"
+  }
+}

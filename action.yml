@@ -1,0 +1,13 @@
+name: 'Notify DB migration updates'
+description: 'notify for the db migration updats'
+inputs:
+  etl-repo:  # id of input
+    description: 'the etl repo'
+    required: true
+    default: 'foo'
+outputs:
+  time: # id of output
+    description: 'The time we trigger the action'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
