@@ -1,6 +1,9 @@
 name: 'Notify DB migration updates'
 description: 'notify for the db migration updats'
 inputs:
+  github-token: # the github token
+    description: 'the github token'
+    required: true
   etl-repo:  # id of input
     description: 'the etl repo'
     required: true
