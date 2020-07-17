@@ -11,7 +11,7 @@ function parseRepo(input) {
 
 async function run() {
   try {
-    const token = core.getInput('github-token');
+    const token = core.getInput('token');
     const { owner, repo } = parseRepo(core.getInput('etl-repo'));
 
     console.log(`Target repo: ${owner}/${repo}`);
