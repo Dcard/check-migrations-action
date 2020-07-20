@@ -20,7 +20,7 @@ async function run() {
       owner,
       repo,
       title: 'New migration update from: ...',
-      body: 'there is a new migration update from: ...'
+      body: 'there is a new migration update from: ... @benjamin99'
     });
 
     console.log('create issue: ' + issue.url + ' successfully');
